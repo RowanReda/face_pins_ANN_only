@@ -4,7 +4,7 @@
 The goal of this project is to build a multiclass classification model using Keras to recognize and classify images of faces based on the identity of different celebrities. The target accuracy for the model is set at 85% or higher on the validation or test dataset.
 
 ## Dataset
-  *Dataset Link: 
+  - Dataset Link: 
     Pins Face Recognition Dataset on Kaggle
   # -Description: 
     The dataset contains facial images categorized by individual celebrities or persons, where each class represents a unique identity.

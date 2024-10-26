@@ -31,19 +31,17 @@ The model is built using Keras Sequential API:
   - Dropout: Used in hidden layers to prevent overfitting.
   - Output Layer: Softmax layer with neurons equal to the number of classes for multiclass classification.
   - Early Stopping & Learning Rate Scheduler: Applied to optimize training and prevent overfitting.
+Model Training and Callbacks
+  - Callbacks: Early stopping and learning rate reduction are used to improve training performance.
+  - Training: The model is trained with a categorical cross-entropy loss function and Adam optimizer.
 
 ## 3. Training
   The model is trained using the training set with a validation split of 20%. The primary evaluation metric is accuracy.
+  
 
 ## 4. Evaluation
   - Classification Report: Precision, recall, and F1-score are calculated.
   - Loss and Accuracy Curves: Plots for training and validation losses and accuracies across epochs.
   - Confusion Matrix: Visual representation of classification performance across classes.
 
-Results
-Include any insights gained from the model’s performance, hyperparameter tuning, and challenges faced.
 
-Visualizations
-Training & Validation Curves: Plot loss and accuracy over epochs.
-Confusion Matrix: Display the true vs. predicted classes.
-Sample Images: Display examples of correctly and incorrectly classified images.
